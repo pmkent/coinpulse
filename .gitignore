@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore a specific README text file in the docs directory
+docs/README.txt
+!.env.example
