@@ -25,12 +25,19 @@ Github coinpulse
 -Create new .env.example
 !.env.example (in .gitignore)
 
+git remote add origin https://github.com/pmkent/coinpulse.git
+git branch -M main
+git push -u origin main
 
-9:11 / 3:56:12
+9:11 / 3:56:12 https://www.youtube.com/watch?v=-vsh_GxC-vg&t=317s
 
 
-========================================================================================================
 
+-=======================================================================================================-
+
+2026-1-02
+
+git checkout -b feat/navigation
 
 
 
