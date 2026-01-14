@@ -1,5 +1,7 @@
 import { ModeToggle } from '@/components/theme/mode-toggle'
 
+// import ThemeToggle from '@/components/theme/mode-toggle'
+
 export default function Home() {
   return (
     <main className='flex min-h-screen flex-col items-center justify-between p-24'>
@@ -11,6 +13,7 @@ export default function Home() {
       <p className='text-3xl text-indigo-500'>Coin Pulse</p>
       <div>
         <ModeToggle />
+        {/* <ThemeToggle /> */}
       </div>
     </main>
   )

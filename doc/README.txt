@@ -1,6 +1,31 @@
 README coin pulse 2026-1-01
+https://www.youtube.com/watch?v=-vsh_GxC-vg&t=940s
+
+https://github.com/adrianhajdin/coinpulse/blob/main/type.d.ts
 
 ========================================================================================================
+2026-1-04
+
+Claude code, MCP service
+https://www.youtube.com/watch?v=SUysp3sJHbA&list=PL4cUxeGkcC9g4YJeBqChhFJwKQ9TRiivY
+https://cursor.com/
+
+Cursor IDE - AI-Native editor
+GitHub Copilot
+Windsurf Editor & Cascade
+Claude Code (Terminal)
+Cline (VS Code Extension)
+Effective AI Prompting for Code
+When to Trust vs Verify AI
+https://www.youtube.com/shorts/YYtbDje_lIw
+
+-**pussyfoot** - verb
+-gerund or present participle: pussy-footing
+act in a cautious or noncommittal way.
+"I realized I could no longer pussyfoot around"
+
+2026-1-3
+
 
 C:\phil\dev\tutorials\nextjs\tutors\javascript_mastery\coin_pulse
 
@@ -13,7 +38,7 @@ npx create-next-app@latest . --yes
 npm run dev
 
 npx shadcn@latest init
-npx shadcn@latest add tabs button form card input avatar dropdown-menu sheet sonner badge label form checkbox avatar separator navigation-menu login-03
+npx shadcn@latest add tabs button form card input avatar dropdown-menu sheet sonner badge label form checkbox avatar separator navigation-menu login-03 table
 
 -Create new components/theme/theme-provider.tsx
 -Update /app/layout.txs
@@ -38,6 +63,40 @@ git push -u origin main
 2026-1-02
 
 git checkout -b feat/navigation
+
+-Create new components/nav/header.tsx
+
+C:\phil\dev\tutorials\nextjs\tutors\javascript_mastery\coin_pulse
+ \assets\icons\pmk
+'/assets/icons/pmk/pmk-29.png'
+
+2026-1-08
+
+https://www.coingecko.com/
+Since 2014, sponsoring video?
+https://www.coingecko.com/en/api/pricing
+
+-Create new .env.local
+COINGECKO_BASE_URL=https://pro-api.coingecko.com/api/v3
+
+COINGECKO_API_KEY=CG-pp17xkTLYcxb4r9DaAw1Q2iZ
+NEXT_PUBLIC_COINGECKO_API_KEY=CG-pp17xkTLYcxb4r9DaAw1Q2iZ
+
+https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&ids=bitcoin&x_cg_demo_api_key=CG-pp17xkTLYcxb4r9DaAw1Q2iZ
+
+-Create new app/main/page.tsx
+
+-Create new components/data-table.tsx
+
+-Create new type.d.ts
+
+36:06 / 3:56:12
+
+2026-1-09
+
+npm install lucide-react  ??
+
+23:40 / 3:56:12
 
 
 

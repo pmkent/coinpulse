@@ -2,10 +2,11 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import pmkImageLogo from '@/assets/icons/pmk/pmk-29.png'
 import { usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils'
-// import pmkImageLogo from '@/assets/icons/pmk/pmk-0.jpg'
+// import ThemeToggle from '../theme/mode-toggle'
+import { ModeToggle } from '../theme/mode-toggle'
+// import pmkImageLogo from '@/assets/icons/pmk/pmk-29.png'
 
 const Header = () => {
   const pathname = usePathname()
@@ -13,7 +14,13 @@ const Header = () => {
     <header>
       <div className='main-container inner'>
         <Link href='/'>
-          <Image src='logo.svg' alt='CoinPulse logo' width={132} height={40} />
+          <Image
+            src='/logo.svg'
+            alt='CoinPulse logo'
+            width={132}
+            height={40}
+            className='border-b-muted rounded-full border'
+          />
         </Link>
 
         <nav>
@@ -33,6 +40,8 @@ const Header = () => {
           >
             All Coins
           </Link>
+          <ModeToggle />
+          {/* <ThemeToggle /> */}
         </nav>
       </div>
     </header>
