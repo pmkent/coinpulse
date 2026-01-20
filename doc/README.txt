@@ -1,7 +1,14 @@
 README coin pulse 2026-1-01
 https://www.youtube.com/watch?v=-vsh_GxC-vg&t=940s
 
+https://github.com/pmkent/coinpulse/pull/2
 https://github.com/adrianhajdin/coinpulse/blob/main/type.d.ts
+https://docs.coingecko.com/v3.0.1/reference/authentication
+
+
+
+https://imagecolorpicker.com/
+https://oklch.net/  OKLCH Color Picker & Converter
 
 ========================================================================================================
 2026-1-04
@@ -98,9 +105,55 @@ npm install lucide-react  ??
 
 23:40 / 3:56:12
 
+41:40?
 
 
+2026-1-13
 
+45:56
+
+-Create new components/theme/theme-toggle.tsx
+ThemeToggle
+
+
+46:14 / 3:56:12 Suspense and Streaming - https://www.youtube.com/watch?v=-vsh_GxC-vg&t=940s
+
+2026-1-14
+
+https://docs.coingecko.com/v3.0.1/reference/authentication
+
+npm i query-string
+  Allows stringifying of URLs.
+
+-Create new lib/coingecko.actions.ts
+  Server file
+
+48:22 / 3:56:12
+51:46 / 3:56:12
+
+53:44
+
+https://pro-api.coingecko.com/api/v3
+https://api.coingecko.com/api/v3/ping?x_cg_demo_api_key=CG-pp17xkTLYcxb4r9DaAw1Q2iZ
+https://pro-api.coingecko.com/api/v3/coins/bitcoin?dex_pair_format=bitcoin
+
+56:33
+
+2026-1-19
+
+next.config.ts
+{
+        protocol: 'https',
+        hostname: 'coin-images.coingecko.com',
+      },
+
+1:00:14
+
+-Create new components/home/CoinOverview.tsx
+-Create new components/home/TrendingCoins.tsx
+
+1:03:31
+1:07:49 / 3:56:12
 
 
 
