@@ -155,6 +155,8 @@ next.config.ts
 1:03:31
 1:07:49 / 3:56:12
 
+-Create new components/home/fallback.tsx
+
 
 
 
