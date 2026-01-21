@@ -1,4 +1,8 @@
 import CoinOverview from '@/components/home/CoinOverview'
+import {
+  CoinOverviewFallback,
+  TrendingCoinsFallback,
+} from '@/components/home/fallback'
 import TrendingCoins from '@/components/home/TrendingCoins'
 // import { fetcher } from '@/lib/coingecko.actions'
 // import { formatCurrency } from '@/lib/utils'
@@ -20,9 +24,19 @@ export default async function Home() {
     <main className='main-container'>
       {/* <main className='main-container inner flex flex-col items-center justify-center'> */}
       <section className='home-grid'>
-        <Suspense fallback={<div>Loading coin overview...</div>}>
+        <Suspense fallback={<CoinOverviewFallback />}>
           <CoinOverview />
         </Suspense>
+        <Suspense fallback={<TrendingCoinsFallback />}>
+          <TrendingCoins />
+        </Suspense>
+
+        <section className='w-full mt-7 space-y-4'>
+          <p>Categories</p>
+        </section>
+        {/* <Suspense fallback={<div>Loading coin overview...</div>}>
+          <CoinOverview />
+        </Suspense> */}
 
         {/* <div id='coin-overview'>
           <div className='header pt-2'>
@@ -41,9 +55,9 @@ export default async function Home() {
           </div>
         </div> */}
 
-        <Suspense fallback={<div>Loading trending coins...</div>}>
+        {/* <Suspense fallback={<div>Loading trending coins...</div>}>
           <TrendingCoins />
-        </Suspense>
+        </Suspense> */}
       </section>
     </main>
   )
